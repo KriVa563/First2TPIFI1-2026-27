@@ -3,22 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Choose a Mr.Rims specialist and tell us which service you need.">
     <link rel="stylesheet" href="myStyle.css">
-    <title>Home Page</title>
+    <title>Contact Mr.Rims | Appointments</title>
 </head>
 <body>
-  <nav>
+    <nav aria-label="Main navigation">
         <ul id="mainLinks">
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="contact.html" aria-current="page">Contact</a></li>
             <li><a href="products.html">Products</a></li>
         </ul>
-        <ul id="languageLinks">
-            <li><a href="index.html">English</a></li>
-            <li><a href="index-fr.html">Français</a></li>
+        <ul id="languageLinks" aria-label="Language">
+            <li><a href="contact.html" aria-current="page">English</a></li>
+            <li><a href="contact-fr.html">Français</a></li>
         </ul>
     </nav>
-    <h1>Contact Us</h1>
+
+    <main class="contactPage" id="appointment">
+        <header class="contactIntro">
+            <p class="eyebrow">WE’RE HERE TO HELP</p>
+            <h1>Make an appointment</h1>
+            <p>Choose the service you need and the right Mr.Rims specialist. We’ll be ready to discuss your rims, tires, or next set of wheels.</p>
+        </header>
+
+        <section class="appointmentPanel" aria-labelledby="appointmentTitle">
+            <h2 id="appointmentTitle">Choose a service specialist</h2>
+            <div class="appointmentFields">
+                <label for="serviceChoice">What do you need?</label>
+                <select id="serviceChoice" name="service">
+                    <option value="rims">Buy rims</option>
+                    <option value="repair">Rim repair or painting</option>
+                    <option value="tires">Change or buy tires</option>
+                </select>
+
+                <label for="specialistChoice">Choose a specialist</label>
+                <select id="specialistChoice" name="specialist">
+                    <option value="rims">Rims sales specialist</option>
+                    <option value="repair">Rim repair and painting specialist</option>
+                    <option value="tires">Tire change specialist</option>
+                </select>
+
+                <label for="appointmentNotes">Tell us a little more (optional)</label>
+                <textarea id="appointmentNotes" name="notes" rows="4" placeholder="Your car model, preferred date, or what you need help with"></textarea>
+            </div>
+            <p class="appointmentHint">Contact us with your choices to arrange a time. Please include your name and preferred contact details.</p>
+        </section>
+    </main>
 </body>
 </html>

@@ -1,24 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover wheel styles and find the right rims for your car at Mr.Rims.">
     <link rel="stylesheet" href="myStyle.css">
-    <title>Home Page</title>
+    <title>Mr.Jantes | Trouvez votre ajustement</title>
 </head>
 <body>
-   <nav>
-        <ul id="mainLinks">           
-            <li><a href="index-fr.html">Home</a></li>          
-            <li><a href="about-fr.html">About</a></li>          
+    <nav aria-label="Main navigation">
+        <ul id="mainLinks">
+            <li><a href="index-fr.html" aria-current="page">Accueil</a></li>
+            <li><a href="about-fr.html">À propos</a></li>
             <li><a href="contact-fr.html">Contact</a></li>
-            <li><a href="products-fr.html">Products</a></li>
+            <li><a href="products-fr.html">Produits</a></li>
         </ul>
-        <ul id="languageLinks">
-            <li><a href="index.html">English</a></li>
+        <ul id="languageLinks" aria-label="Language">
+            <li><a href="index.html" aria-current="page">English</a></li>
             <li><a href="index-fr.html">Français</a></li>
         </ul>
     </nav>
-    <h1>Notre Page d'Accueil</h1>
+
+    <main>
+        <section class="welcomeHero">
+            <div class="welcomeCopy">
+                <p class="eyebrow">LES BONNES ROUES CHANGENT TOUT</p>
+                <h1>Bienvenue chez <span>MR.JANTES</span></h1>
+                <p class="welcomeIntro">Donnez à votre voiture un look qui vous ressemble. Découvrez une sélection soigneuse de jantes, des styles quotidiens propres aux designs audacieux qui se démarquent.</p>
+                <a class="welcomeButton" href="products-fr.html">Explorez nos jantes</a>
+            </div>
+            <div class="welcomeImageWrap">
+                <img src="images/jantes3.png" alt="Sporty alloy rim available at Mr.Jantes">
+            </div>
+        </section>
+
+        <section class="rimInfo" aria-labelledby="rimInfoTitle">
+            <p class="eyebrow">Quand le style rencontre la route</p>
+            <h2 id="rimInfoTitle">Trouvez les jantes qui correspondent à votre style</h2>
+            <p>Les jantes sont la partie extérieure d'un roue, et elles font une grande différence sur l'apparence de votre voiture. Un bon ensemble peut apporter un style frais à votre véhicule tout en correspondant à la façon dont vous l'utilisez au quotidien. La taille et l'adaptation comptent également, donc vérifiez toujours qu'une jante est compatible avec votre voiture avant d'acheter.</p>
+        </section>
+
+        <section class="storeFeatures" aria-label="What Mr.Jantes offers">
+            <article>
+                <h3>Styles sélectionnés</h3>
+                <p>Naviguez une sélection soignée de designs allant du classique au contemporain.</p>
+            </article>
+            <article>
+                <h3>Adaptation d'abord</h3>
+                <p>Nous facilitons la comparaison des options et la recherche de jantes adaptées à votre véhicule.</p>
+            </article>
+            <article>
+                <h3>Conçu pour votre véhicule</h3>
+                <p>Que vous souhaitiez un rafraîchissement subtil ou un look plus audacieux, commencez par un style que vous aimez.</p>
+            </article>
+        </section>
+    </main>
 </body>
 </html>
