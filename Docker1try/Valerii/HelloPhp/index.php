@@ -8,13 +8,12 @@
 <body>
     <h1>Hello, PHP</h1>
     <?php
-   $a="Valerii";
-   $b="Kriukov";
-   $c=$a." ".$b;
-   $g=$c;
-   for($g=$c;$g<100;$g++)
-    {
-    print $g;
-    }
+        $a="Valerii";
+        $b="Kriukov";
+        $c=$a." ".$b;
+        for($g=0;$g<100;$g++)
+        {
+            print $c . "<br>";
+            }
 
     ?>
