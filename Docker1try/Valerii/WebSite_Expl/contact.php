@@ -10,14 +10,14 @@
 <body>
     <nav aria-label="Main navigation">
         <ul id="mainLinks">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html" aria-current="page">Contact</a></li>
-            <li><a href="products.html">Products</a></li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="about.php">About</a></li>
+            <li><a href="contact.php" aria-current="page">Contact</a></li>
+            <li><a href="products.php">Products</a></li>
         </ul>
         <ul id="languageLinks" aria-label="Language">
-            <li><a href="contact.html" aria-current="page">English</a></li>
-            <li><a href="contact-fr.html">Français</a></li>
+            <li><a href="contact.php" aria-current="page">English</a></li>
+            <li><a href="contact-fr.php">Français</a></li>
         </ul>
     </nav>
 

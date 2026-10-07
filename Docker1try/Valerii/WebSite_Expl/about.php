@@ -10,14 +10,14 @@
 <body>
     <nav aria-label="Main navigation">
         <ul id="mainLinks">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html" aria-current="page">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="products.html">Products</a></li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="about.php" aria-current="page">About</a></li>
+            <li><a href="contact.php">Contact</a></li>
+            <li><a href="products.php">Products</a></li>
         </ul>
         <ul id="languageLinks" aria-label="Language">
-            <li><a href="about.html" aria-current="page">English</a></li>
-            <li><a href="about-fr.html">Français</a></li>
+            <li><a href="about.php" aria-current="page">English</a></li>
+            <li><a href="about-fr.php">Français</a></li>
         </ul>
     </nav>
 
@@ -36,7 +36,7 @@
                 <h2>More than just rims</h2>
                 <p>Rims are one of the details that can change the whole character of a car. Some drivers prefer a clean, understated design; others want a bold finish that catches the eye. Our collection brings different looks together in one place.</p>
                 <p>We can also help with rim repairs and new tires. Whether your rims need attention or it is time for a fresh set of tires, contact us to discuss the service your car needs. Rim and tire sizes must suit your vehicle, so check its specifications or ask us if you are unsure.</p>
-                <a class="welcomeButton" href="products.html">Browse the collection</a>
+                <a class="welcomeButton" href="products.php">Browse the collection</a>
             </div>
         </section>
 
@@ -44,17 +44,17 @@
             <article>
                 <h3>Rims for your style</h3>
                 <p>Explore designs from clean, classic looks to modern statement rims.</p>
-                <a class="serviceAppointment" href="contact.html?service=rims#appointment">Make an appointment</a>
+                <a class="serviceAppointment" href="contact.php?service=rims#appointment">Make an appointment</a>
             </article>
             <article>
                 <h3>Rim repairs</h3>
                 <p>Ask us about repairing your rims and bringing them back into shape.</p>
-                <a class="serviceAppointment" href="contact.html?service=repair#appointment">Make an appointment</a>
+                <a class="serviceAppointment" href="contact.php?service=repair#appointment">Make an appointment</a>
             </article>
             <article>
                 <h3>New tires</h3>
                 <p>We can supply and fit new tires to suit your vehicle. Contact us to discuss sizes and availability.</p>
-                <a class="serviceAppointment" href="contact.html?service=tires#appointment">Make an appointment</a>
+                <a class="serviceAppointment" href="contact.php?service=tires#appointment">Make an appointment</a>
             </article>
         </section>
     </main>

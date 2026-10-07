@@ -1,22 +1,38 @@
 <!DOCTYPE html> <html lang="fr"> 
 <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 <link rel="stylesheet" href="myStyle.css"> 
-<title>Nos Jantes</title> 
+<title>Our Products</title> 
 </head> 
 <body> 
     <nav>
         <ul id="mainLinks">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="products.html">Products</a></li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="about.php">About</a></li>
+            <li><a href="contact.php">Contact</a></li>
+            <li><a href="products.php">Products</a></li>
         </ul>
         <ul id="languageLinks">
-            <li><a href="index.html">English</a></li>
-            <li><a href="index-fr.html">Français</a></li>
+            <li><a href="index.php">English</a></li>
+            <li><a href="index-fr.php">Français</a></li>
         </ul>
     </nav>
     <div class="AllItems">
+<?php
+for ($i =0; $i <= 2;$i++) {
+    
+?>
+  <div class="oneItem">
+    <h2>BMW Rims F20 F21 F22 F23</h2>
+    <img src="images/jantes1.png" alt="Wheels">
+    <p>Price: <strong>963,56 €</strong></p>
+    <button>Sold Out</button>
+    </div>
+    <?php
+}
+?>
+
+
+
     <div class="oneItem">
     <h2>BMW Rims F20 F21 F22 F23</h2>
     <img src="images/jantes1.png" alt="Wheels">

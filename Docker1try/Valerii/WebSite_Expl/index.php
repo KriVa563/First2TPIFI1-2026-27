@@ -10,14 +10,14 @@
 <body>
     <nav aria-label="Main navigation">
         <ul id="mainLinks">
-            <li><a href="index.html" aria-current="page">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="products.html">Products</a></li>
+            <li><a href="index.php" aria-current="page">Home</a></li>
+            <li><a href="about.php">About</a></li>
+            <li><a href="contact.php">Contact</a></li>
+            <li><a href="products.php">Products</a></li>
         </ul>
         <ul id="languageLinks" aria-label="Language">
-            <li><a href="index.html" aria-current="page">English</a></li>
-            <li><a href="index-fr.html">Français</a></li>
+            <li><a href="index.php" aria-current="page">English</a></li>
+            <li><a href="index-fr.php">Français</a></li>
         </ul>
     </nav>
 
@@ -27,7 +27,7 @@
                 <p class="eyebrow">THE RIGHT WHEELS CHANGE EVERYTHING</p>
                 <h1>Welcome to <span>Mr.Rims</span></h1>
                 <p class="welcomeIntro">Give your car a look that feels like yours. Explore a hand-picked range of rims, from clean everyday styles to bold designs that stand out.</p>
-                <a class="welcomeButton" href="products.html">Explore our rims</a>
+                <a class="welcomeButton" href="products.php">Explore our rims</a>
             </div>
             <div class="welcomeImageWrap">
                 <img src="images/jantes3.png" alt="Sporty alloy rim available at Mr.Rims">

@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="myStyle.css">
-    <title>À propos</title>
+    <title>À propos Mr.Rims</title>
 </head>
 <body>
      <nav>
         <ul id="mainLinks">           
-            <li><a href="index-fr.html">Accueil</a></li>          
-            <li><a href="about-fr.html">À propos</a></li>          
-            <li><a href="contact-fr.html">Contact</a></li>
-            <li><a href="products-fr.html">Produits</a></li>
+            <li><a href="index-fr.php">Accueil</a></li>          
+            <li><a href="about-fr.php">À propos</a></li>          
+            <li><a href="contact-fr.php">Contact</a></li>
+            <li><a href="products-fr.php">Produits</a></li>
         </ul>
         <ul id="languageLinks">
-            <li><a href="index.html">English</a></li>
-            <li><a href="index-fr.html">Français</a></li>
+            <li><a href="index.php">English</a></li>
+            <li><a href="index-fr.php">Français</a></li>
         </ul>
     </nav>
     <main class="aboutPage">
@@ -34,7 +34,7 @@
             <h2>Bien plus que des jantes</h2>
             <p>Les jantes sont un des détails qui peuvent changer le caractère d'une voiture. Certains conducteurs préfèrent un design propre et discret ; d'autres veulent un fini audacieux qui attire l'œil. Notre collection rassemble différents styles en un seul endroit.</p>
                 <p>Nous pouvons également vous aider avec les réparations de jantes et les nouveaux pneus. Que vos jantes aient besoin d'attention ou qu'il soit temps pour un nouvel ensemble de pneus, contactez-nous pour discuter du service dont votre voiture a besoin. Les tailles de jantes et de pneus doivent convenir à votre véhicule, donc vérifiez ses spécifications ou demandez-nous si vous n'êtes pas sûr.</p>
-                <a class="welcomeButton" href="products.html">Parcourir la collection</a>
+                <a class="welcomeButton" href="products.php">Parcourir la collection</a>
             </div>
         </section>
 
@@ -42,17 +42,17 @@
             <article>
                 <h3>Des jantes adaptées à votre style</h3>
                 <p>Découvrez des modèles allant de styles épurés et classiques à des jantes modernes au design affirmé.</p>
-                <a class="serviceAppointment" href="contact.html?service=rims#appointment">Prendre un rendez-vous</a>
+                <a class="serviceAppointment" href="contact.php?service=rims#appointment">Prendre un rendez-vous</a>
             </article>
             <article>
                 <h3>Réparations de jantes</h3>
                 <p>Renseignez-vous auprès de nous pour la réparation et la remise en forme de vos jantes.</p>
-                <a class="serviceAppointment" href="contact.html?service=repair#appointment">Prendre un rendez-vous</a>
+                <a class="serviceAppointment" href="contact.php?service=repair#appointment">Prendre un rendez-vous</a>
             </article>
             <article>
                 <h3>Nouveaux pneus</h3>
                 <p>Nous pouvons fournir et installer de nouveaux pneus adaptés à votre véhicule. Contactez-nous pour discuter des tailles et de la disponibilité.</p>
-                <a class="serviceAppointment" href="contact.html?service=tires#appointment">Prendre un rendez-vous</a>
+                <a class="serviceAppointment" href="contact.php?service=tires#appointment">Prendre un rendez-vous</a>
             </article>
         </section>
     </main>

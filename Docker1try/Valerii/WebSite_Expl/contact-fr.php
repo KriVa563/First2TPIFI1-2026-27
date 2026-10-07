@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="myStyle.css">
-    <title>Contact</title>
+    <title>Contact Mr.Rims | rendez-vous</title>
 </head>
 <body>
      <nav>
         <ul id="mainLinks">           
-            <li><a href="index-fr.html">Accueil</a></li>          
-            <li><a href="about-fr.html">À propos</a></li>          
-            <li><a href="contact-fr.html">Contact</a></li>
-            <li><a href="products-fr.html">Produits</a></li>
+            <li><a href="index-fr.php">Accueil</a></li>          
+            <li><a href="about-fr.php">À propos</a></li>          
+            <li><a href="contact-fr.php">Contact</a></li>
+            <li><a href="products-fr.php">Produits</a></li>
         </ul>
         <ul id="languageLinks">
-            <li><a href="index.html">English</a></li>
-            <li><a href="index-fr.html">Français</a></li>
+            <li><a href="index.php">English</a></li>
+            <li><a href="index-fr.php">Français</a></li>
         </ul>
     </nav>
     

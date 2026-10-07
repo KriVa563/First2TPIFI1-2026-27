@@ -10,14 +10,14 @@
 <body>
     <nav aria-label="Main navigation">
         <ul id="mainLinks">
-            <li><a href="index-fr.html" aria-current="page">Accueil</a></li>
-            <li><a href="about-fr.html">À propos</a></li>
-            <li><a href="contact-fr.html">Contact</a></li>
-            <li><a href="products-fr.html">Produits</a></li>
+            <li><a href="index-fr.php" aria-current="page">Accueil</a></li>
+            <li><a href="about-fr.php">À propos</a></li>
+            <li><a href="contact-fr.php">Contact</a></li>
+            <li><a href="products-fr.php">Produits</a></li>
         </ul>
         <ul id="languageLinks" aria-label="Language">
-            <li><a href="index.html" aria-current="page">English</a></li>
-            <li><a href="index-fr.html">Français</a></li>
+            <li><a href="index.php" aria-current="page">English</a></li>
+            <li><a href="index-fr.php">Français</a></li>
         </ul>
     </nav>
 
@@ -27,7 +27,7 @@
                 <p class="eyebrow">LES BONNES ROUES CHANGENT TOUT</p>
                 <h1>Bienvenue chez <span>MR.JANTES</span></h1>
                 <p class="welcomeIntro">Donnez à votre voiture un look qui vous ressemble. Découvrez une sélection soigneuse de jantes, des styles quotidiens propres aux designs audacieux qui se démarquent.</p>
-                <a class="welcomeButton" href="products-fr.html">Explorez nos jantes</a>
+                <a class="welcomeButton" href="products-fr.php">Explorez nos jantes</a>
             </div>
             <div class="welcomeImageWrap">
                 <img src="images/jantes3.png" alt="Sporty alloy rim available at Mr.Jantes">
