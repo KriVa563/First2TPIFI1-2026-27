@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="myStyle.css">
     <title>À propos Mr.Rims</title>
 </head>
+
 <body>
-     <nav>
-        <ul id="mainLinks">           
-            <li><a href="index-fr.php">Accueil</a></li>          
-            <li><a href="about-fr.php">À propos</a></li>          
+    <nav>
+        <ul id="mainLinks">
+            <li><a href="index-fr.php">Accueil</a></li>
+            <li><a href="about-fr.php">À propos</a></li>
             <li><a href="contact-fr.php">Contact</a></li>
             <li><a href="products-fr.php">Produits</a></li>
         </ul>
@@ -31,8 +33,8 @@
                 <img src="images/jantes1.png" alt="Alloy rim from the Mr.Rims collection">
             </div>
             <div>
-            <h2>Bien plus que des jantes</h2>
-            <p>Les jantes sont un des détails qui peuvent changer le caractère d'une voiture. Certains conducteurs préfèrent un design propre et discret ; d'autres veulent un fini audacieux qui attire l'œil. Notre collection rassemble différents styles en un seul endroit.</p>
+                <h2>Bien plus que des jantes</h2>
+                <p>Les jantes sont un des détails qui peuvent changer le caractère d'une voiture. Certains conducteurs préfèrent un design propre et discret ; d'autres veulent un fini audacieux qui attire l'œil. Notre collection rassemble différents styles en un seul endroit.</p>
                 <p>Nous pouvons également vous aider avec les réparations de jantes et les nouveaux pneus. Que vos jantes aient besoin d'attention ou qu'il soit temps pour un nouvel ensemble de pneus, contactez-nous pour discuter du service dont votre voiture a besoin. Les tailles de jantes et de pneus doivent convenir à votre véhicule, donc vérifiez ses spécifications ou demandez-nous si vous n'êtes pas sûr.</p>
                 <a class="welcomeButton" href="products.php">Parcourir la collection</a>
             </div>
@@ -57,4 +59,5 @@
         </section>
     </main>
 </body>
+
 </html>

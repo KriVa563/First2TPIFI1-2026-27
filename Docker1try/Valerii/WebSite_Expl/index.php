@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,20 +8,11 @@
     <link rel="stylesheet" href="myStyle.css">
     <title>Mr.Rims | Find Your Fit</title>
 </head>
-<body>
-    <nav aria-label="Main navigation">
-        <ul id="mainLinks">
-            <li><a href="index.php" aria-current="page">Home</a></li>
-            <li><a href="about.php">About</a></li>
-            <li><a href="contact.php">Contact</a></li>
-            <li><a href="products.php">Products</a></li>
-        </ul>
-        <ul id="languageLinks" aria-label="Language">
-            <li><a href="index.php" aria-current="page">English</a></li>
-            <li><a href="index-fr.php">Français</a></li>
-        </ul>
-    </nav>
 
+<body>
+    <?php include_once 'commonCode.php';
+    navigatorBar("Home");
+    ?>
     <main>
         <section class="welcomeHero">
             <div class="welcomeCopy">
@@ -56,4 +48,5 @@
         </section>
     </main>
 </body>
+
 </html>

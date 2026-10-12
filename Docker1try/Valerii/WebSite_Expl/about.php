@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,19 +8,11 @@
     <link rel="stylesheet" href="myStyle.css">
     <title>About Mr.Rims</title>
 </head>
+
 <body>
-    <nav aria-label="Main navigation">
-        <ul id="mainLinks">
-            <li><a href="index.php">Home</a></li>
-            <li><a href="about.php" aria-current="page">About</a></li>
-            <li><a href="contact.php">Contact</a></li>
-            <li><a href="products.php">Products</a></li>
-        </ul>
-        <ul id="languageLinks" aria-label="Language">
-            <li><a href="about.php" aria-current="page">English</a></li>
-            <li><a href="about-fr.php">Français</a></li>
-        </ul>
-    </nav>
+    <?php include_once 'commonCode.php';
+    navigatorBar("About");
+    ?>
 
     <main class="aboutPage">
         <header class="aboutIntro">
@@ -59,4 +52,5 @@
         </section>
     </main>
 </body>
+
 </html>

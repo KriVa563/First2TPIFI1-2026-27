@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,20 +8,11 @@
     <link rel="stylesheet" href="myStyle.css">
     <title>Contact Mr.Rims | Appointments</title>
 </head>
-<body>
-    <nav aria-label="Main navigation">
-        <ul id="mainLinks">
-            <li><a href="index.php">Home</a></li>
-            <li><a href="about.php">About</a></li>
-            <li><a href="contact.php" aria-current="page">Contact</a></li>
-            <li><a href="products.php">Products</a></li>
-        </ul>
-        <ul id="languageLinks" aria-label="Language">
-            <li><a href="contact.php" aria-current="page">English</a></li>
-            <li><a href="contact-fr.php">Français</a></li>
-        </ul>
-    </nav>
 
+<body>
+    <?php include_once 'commonCode.php';
+    navigatorBar("Contact");
+    ?>
     <main class="contactPage" id="appointment">
         <header class="contactIntro">
             <p class="eyebrow">WE’RE HERE TO HELP</p>
@@ -52,4 +44,5 @@
         </section>
     </main>
 </body>
+
 </html>
