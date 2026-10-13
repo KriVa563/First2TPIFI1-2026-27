@@ -9,18 +9,9 @@
 </head>
 
 <body>
-    <nav>
-        <ul id="mainLinks">
-            <li><a href="index-fr.php">Accueil</a></li>
-            <li><a href="about-fr.php">À propos</a></li>
-            <li><a href="contact-fr.php">Contact</a></li>
-            <li><a href="products-fr.php">Produits</a></li>
-        </ul>
-        <ul id="languageLinks">
-            <li><a href="index.php">English</a></li>
-            <li><a href="index-fr.php">Français</a></li>
-        </ul>
-    </nav>
+    <?php include_once 'commonCode.php';
+    navigatorBar("Contact","");
+    ?>
 
     <main class="contactPage" id="appointment">
         <header class="contactIntro">

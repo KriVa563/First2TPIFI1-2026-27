@@ -1,5 +1,5 @@
 <?php
-function navigatorBar($activePage)//the $activePage will be a string...
+function navigatorBar($activePage,$language)//the $activePage will be a string...
 {
 ?>
 
@@ -11,8 +11,8 @@ function navigatorBar($activePage)//the $activePage will be a string...
             <li><a href="products.php" <?php if($activePage=="Products"){print"class='active'";} ?>>Products</a></li>
         </ul>
         <ul id="languageLinks">
-            <li><a href="index.php">English</a></li>
-            <li><a href="index-fr.php">Français</a></li>
+            <li><a href="index.php"<?php if($language=="EN"){print"class='active'";} ?>>English</a></li>
+            <li><a href="index-fr.php"<?php if($language=="FR"){print"class='active'";} ?>>Français</a></li>
         </ul>
     </nav>
 <?php

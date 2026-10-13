@@ -10,18 +10,9 @@
 </head>
 
 <body>
-    <nav aria-label="Main navigation">
-        <ul id="mainLinks">
-            <li><a href="index-fr.php" aria-current="page">Accueil</a></li>
-            <li><a href="about-fr.php">À propos</a></li>
-            <li><a href="contact-fr.php">Contact</a></li>
-            <li><a href="products-fr.php">Produits</a></li>
-        </ul>
-        <ul id="languageLinks" aria-label="Language">
-            <li><a href="index.php" aria-current="page">English</a></li>
-            <li><a href="index-fr.php">Français</a></li>
-        </ul>
-    </nav>
+    <?php include_once 'commonCode.php';
+    navigatorBar("Home","FR");
+    ?>
 
     <main>
         <section class="welcomeHero">
