@@ -11,7 +11,7 @@
 
 <body>
     <?php include_once 'commonCode.php';
-    navigatorBar("Contact");
+    navigatorBar("Contact","EN");
     ?>
     <main class="contactPage" id="appointment">
         <header class="contactIntro">

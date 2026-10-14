@@ -11,7 +11,7 @@
 
 <body>
     <?php include_once 'commonCode.php';
-    navigatorBar("About");
+    navigatorBar("About","EN");
     ?>
 
     <main class="aboutPage">

@@ -13,12 +13,20 @@
     navigatorBar("Products","FR");
     ?>
     <div class="AllItems">
-        <div class="oneItem">
+        <?php
+        for ($i = 0; $i <= 3; $i++) {
+
+        ?>
+             <div class="oneItem">
             <h2>BMW Jantes F20 F21 F22 F23</h2>
             <img src="images/jantes1.png" alt="Wheels">
             <p>Prix: <strong>963,56 €</strong></p>
-            <button>Ajouter au Panier</button>
+            <button></button>
         </div>
+        <?php
+        }
+        ?>
+       
 
         <div class="oneItem">
             <h2>R³ Jantes</h2>

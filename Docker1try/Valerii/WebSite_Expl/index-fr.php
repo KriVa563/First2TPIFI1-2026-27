@@ -13,7 +13,6 @@
     <?php include_once 'commonCode.php';
     navigatorBar("Home","FR");
     ?>
-
     <main>
         <section class="welcomeHero">
             <div class="welcomeCopy">

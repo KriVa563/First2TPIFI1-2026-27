@@ -11,7 +11,7 @@
 
 <body>
     <?php include_once 'commonCode.php';
-    navigatorBar("Home");
+    navigatorBar("Home","EN");
     ?>
     <main>
         <section class="welcomeHero">

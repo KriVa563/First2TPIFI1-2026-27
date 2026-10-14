@@ -10,7 +10,7 @@
 
 <body>
     <?php include_once 'commonCode.php';
-    navigatorBar("About");
+    navigatorBar("About","FR");
     ?>
     <main class="aboutPage">
         <header class="aboutIntro">

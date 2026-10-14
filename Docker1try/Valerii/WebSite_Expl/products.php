@@ -9,13 +9,12 @@
 </head>
 
 <body>
-
     <?php include_once 'commonCode.php';
-    navigatorBar("Products");
+    navigatorBar("Products","EN");
     ?>
     <div class="AllItems">
         <?php
-        for ($i = 0; $i <= 2; $i++) {
+        for ($i = 0; $i <= 3; $i++) {
 
         ?>
             <div class="oneItem">
@@ -27,15 +26,6 @@
         <?php
         }
         ?>
-
-
-
-        <div class="oneItem">
-            <h2>BMW Rims F20 F21 F22 F23</h2>
-            <img src="images/jantes1.png" alt="Wheels">
-            <p>Price: <strong>963,56 €</strong></p>
-            <button>Add to Cart</button>
-        </div>
 
         <div class="oneItem">
             <h2>R³ Wheels</h2>

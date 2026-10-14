@@ -10,9 +10,8 @@
 
 <body>
     <?php include_once 'commonCode.php';
-    navigatorBar("Contact","");
+    navigatorBar("Contact","FR");
     ?>
-
     <main class="contactPage" id="appointment">
         <header class="contactIntro">
             <p class="eyebrow">Nous sommes là pour vous aider.</p>
