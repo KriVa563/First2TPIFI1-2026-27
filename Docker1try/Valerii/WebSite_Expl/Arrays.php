@@ -8,36 +8,33 @@
 </head>
 
 <body>
-    <
-    
-        
-   
     <table>
 
         <tr>
-            <th>FirstName</th>
-            <th>FamilyName</th>
+            <th>N°</th>
+            <th>Name</th>
+            <th>Height</th>
         </tr>
         <?php
-        $FirstName = ["John", "Harry", "Donald", "Cristiano", "Adolf", "Michael"];
-         $FamilyName = ["Doe", "Poter", "Trump", "Ronaldo", "Hitler", "Olise"];
-        for($i=0;$i<count($FirstName);$i++)
-            {
+        $height=["Valerii"=>180,
+        "Anastasia"=>177,
+        "Thomas"=>175,
+        "Violetta"=>165];
+        $N°=1;
+       foreach($height as $key=>$value){
 
-            
-        ?>
-  
+       
+        
+  ?>
         <tr>
-            <td><?= $FirstName[$i]?></td>
-            <td><?= $FamilyName[$i]?></td>
+        <td><?= $N°?></td>
+        <td><?= $key?></td>
+        <td><?= $value?></tb>
         </tr>
        <?php
+$N°++;
+}
 
-
-
-
-
-       }
        ?>
     </table>
 </body>
