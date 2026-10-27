@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Discover wheel styles and find the right rims for your car at Mr.Rims.">
-    <link rel="stylesheet" href="myStyle.css">
+<link rel="stylesheet" href="myStyle.css?<?= time(); ?>">
     <title>Mr.Rims | Find Your Fit</title>
 </head>
 

@@ -21,6 +21,8 @@
         "Thomas"=>175,
         "Violetta"=>165];
         $N°=1;
+        if(isset($height["Valerii"]));
+        print($height["Valerii"]);
        foreach($height as $key=>$value){
 
        
