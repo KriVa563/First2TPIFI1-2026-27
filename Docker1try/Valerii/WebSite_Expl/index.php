@@ -12,11 +12,12 @@
 <body>
     <?php include_once 'commonCode.php';
     navigatorBar("Home","EN");
+    //var_dump($translations);
     ?>
     <main>
         <section class="welcomeHero">
             <div class="welcomeCopy">
-                <p class="eyebrow">THE RIGHT WHEELS CHANGE EVERYTHING</p>
+                <p class="eyebrow"><?= $translations["L19"] ?></p>
                 <h1>Welcome to <span>Mr.Rims</span></h1>
                 <p class="welcomeIntro">Give your car a look that feels like yours. Explore a hand-picked range of rims, from clean everyday styles to bold designs that stand out.</p>
                 <a class="welcomeButton" href="products.php">Explore our rims</a>

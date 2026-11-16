@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="EN">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="myStyle.css">
-    <title>Our Products</title>
+    <title>Our Product</title>
 </head>
 
 <body>
@@ -24,7 +24,7 @@
                 <h2><?= $namesOfProducts[$i] ?></h2>
                 <img src=<?= $imagesOfProducts[$i] ?>>
                 <p>Price: <strong><?= $pricesOfProducts[$i] ?> $</strong></p>
-                <button>Add to Cart</button>
+                <button>Add to Card</button>
             </div>
         <?php
         }
