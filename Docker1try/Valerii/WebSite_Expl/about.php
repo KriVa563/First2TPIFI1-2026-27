@@ -5,20 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Shop rims, arrange rim repairs, and get new tires at Mr.Rims.">
-    <link rel="stylesheet" href="myStyle.css">
-    <title>About Mr.Rims</title>
+    <link rel="stylesheet" href="myStyle.css<?= time(); ?>">
+    <title><?= $translations["About9"] ?></title>
 </head>
 
 <body>
     <?php include_once 'commonCode.php';
     navigatorBar("About","EN");
     ?>
-
     <main class="aboutPage">
         <header class="aboutIntro">
-            <p class="eyebrow">ABOUT MR.RIMS</p>
-            <h1>Good wheels. A look that feels like you.</h1>
-            <p>Mr.Rims is your place for rims and tire services. Explore styles for your car, ask us about repairing your rims, or get new tires fitted to refresh your setup.</p>
+            <p class="eyebrow"><?= $translations["About18"] ?></p>
+            <h1><?= $translations["About19"] ?></h1>
+            <p><?= $translations["About20"] ?></p>
         </header>
 
         <section class="aboutStory">
@@ -26,28 +25,28 @@
                 <img src="images/jantes1.png" alt="Alloy rim from the Mr.Rims collection">
             </div>
             <div>
-                <h2>More than just rims</h2>
-                <p>Rims are one of the details that can change the whole character of a car. Some drivers prefer a clean, understated design; others want a bold finish that catches the eye. Our collection brings different looks together in one place.</p>
-                <p>We can also help with rim repairs and new tires. Whether your rims need attention or it is time for a fresh set of tires, contact us to discuss the service your car needs. Rim and tire sizes must suit your vehicle, so check its specifications or ask us if you are unsure.</p>
-                <a class="welcomeButton" href="products.php">Browse the collection</a>
+                <h2><?= $translations["About28"] ?></h2>
+                <p><?= $translations["About29"] ?></p>
+                <p><?= $translations["About30"] ?></p>
+                <a class="welcomeButton" href="products.php"><?= $translations["About31"] ?></a>
             </div>
         </section>
 
         <section class="aboutValues" aria-label="Our services">
             <article>
-                <h3>Rims for your style</h3>
-                <p>Explore designs from clean, classic looks to modern statement rims.</p>
-                <a class="serviceAppointment" href="contact.php?service=rims#appointment">Make an appointment</a>
+                <h3><?= $translations["About37"] ?></h3>
+                <p><?= $translations["About38"] ?></p>
+                <a class="serviceAppointment" href="contact.php?service=rims#appointment"><?= $translations["About39"] ?></a>
             </article>
             <article>
-                <h3>Rim repairs</h3>
-                <p>Ask us about repairing your rims and bringing them back into shape.</p>
-                <a class="serviceAppointment" href="contact.php?service=repair#appointment">Make an appointment</a>
+                <h3><?= $translations["About42"] ?></h3>
+                <p><?= $translations["About43"] ?></p>
+                <a class="serviceAppointment" href="contact.php?service=repair#appointment"><?= $translations["About44"] ?></a>
             </article>
             <article>
-                <h3>New tires</h3>
-                <p>We can supply and fit new tires to suit your vehicle. Contact us to discuss sizes and availability.</p>
-                <a class="serviceAppointment" href="contact.php?service=tires#appointment">Make an appointment</a>
+                <h3><?= $translations["About47"] ?></h3>
+                <p><?= $translations["About48"] ?></p>
+                <a class="serviceAppointment" href="contact.php?service=tires#appointment"><?= $translations["About49"] ?></a>
             </article>
         </section>
     </main>

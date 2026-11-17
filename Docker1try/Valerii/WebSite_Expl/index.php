@@ -5,22 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Discover wheel styles and find the right rims for your car at Mr.Rims.">
-<link rel="stylesheet" href="myStyle.css?<?= time(); ?>">
+    <link rel="stylesheet" href="myStyle.css?<?= time(); ?>">
     <title>Mr.Rims | Find Your Fit</title>
 </head>
 
 <body>
     <?php include_once 'commonCode.php';
-    navigatorBar("Home","EN");
-    //var_dump($translations);
+    navigatorBar("Home", "EN");
     ?>
     <main>
         <section class="welcomeHero">
             <div class="welcomeCopy">
                 <p class="eyebrow"><?= $translations["L19"] ?></p>
-                <h1>Welcome to <span>Mr.Rims</span></h1>
-                <p class="welcomeIntro">Give your car a look that feels like yours. Explore a hand-picked range of rims, from clean everyday styles to bold designs that stand out.</p>
-                <a class="welcomeButton" href="products.php">Explore our rims</a>
+                <h1><?= $translations["L20_1"] ?><span><?= $translations["L20_2"] ?></span></h1>
+                <p class="welcomeIntro"><?= $translations["L21"] ?></p>
+                <a class="welcomeButton" href="products.php"><?= $translations["L22"] ?></a>
             </div>
             <div class="welcomeImageWrap">
                 <img src="images/jantes3.png" alt="Sporty alloy rim available at Mr.Rims">
@@ -28,23 +27,23 @@
         </section>
 
         <section class="rimInfo" aria-labelledby="rimInfoTitle">
-            <p class="eyebrow">STYLE MEETS THE ROAD</p>
-            <h2 id="rimInfoTitle">Find the rims that fit your drive</h2>
-            <p>Rims are the outer part of a wheel, and they make a big difference to your car’s appearance. The right set can bring a fresh style to your vehicle while matching the way you use it every day. Size and fit matter too, so always check that a rim is compatible with your car before buying.</p>
+            <p class="eyebrow"><?= $translations["L30"] ?></p>
+            <h2 id="rimInfoTitle"><?= $translations["L31"] ?></h2>
+            <p><?= $translations["L32"] ?></p>
         </section>
 
         <section class="storeFeatures" aria-label="What Mr.Rims offers">
             <article>
-                <h3>Curated styles</h3>
-                <p>Browse a considered selection of designs from classic to contemporary.</p>
+                <h3><?= $translations["L37"] ?></h3>
+                <p><?= $translations["L38"] ?></p>
             </article>
             <article>
-                <h3>Fit comes first</h3>
-                <p>We make it easier to compare options and find rims suited to your vehicle.</p>
+                <h3><?= $translations["L41"] ?></h3>
+                <p><?= $translations["L42"] ?></p>
             </article>
             <article>
-                <h3>Made for your build</h3>
-                <p>Whether you want a subtle refresh or a bolder look, start with a style you love.</p>
+                <h3><?= $translations["L45"] ?></h3>
+                <p><?= $translations["L46"] ?></p>
             </article>
         </section>
     </main>

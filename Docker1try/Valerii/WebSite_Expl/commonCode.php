@@ -9,13 +9,13 @@ while (!feof($fileTranslation)) {
     $anotherLineOfText = fgets($fileTranslation);
     $oneLineArray = explode(";", $anotherLineOfText);
     if (count($oneLineArray) == 3) {
-       // var_dump($oneLineArray);
-       // print("<br>");
+        //var_dump($oneLineArray);
+        //print("<br>");
         if ($lang == "EN") {
             $translations[$oneLineArray[0]] = $oneLineArray[1];
+        } else {
+            $translations[$oneLineArray[0]] = $oneLineArray[2];
         }
-    } else {
-        $translations[$oneLineArray[0]] = $oneLineArray[2];
     }
 }
 
@@ -38,6 +38,11 @@ function navigatorBar($activePage, $language) //the $activePage will be a string
                                                 print "class='active'";
                                             } ?>>Contact</a></li>
                 <li><a href="products.php" <?php if ($activePage == "Products") {
+                                                print "class='active'";
+                                            } ?>>Products</a></li>
+            </ul>
+            <ul>
+                <li><a href="products.php/" <?php if ($activePage == "Products") {
                                                 print "class='active'";
                                             } ?>>Products</a></li>
             </ul>
@@ -71,7 +76,7 @@ function navigatorBar($activePage, $language) //the $activePage will be a string
                 <li><a href="index-fr.php" class="active">Français</a></li>
             </ul>
         </nav>
-    <?php
+<?php
     }
 }
 ?>

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Choose a Mr.Rims specialist and tell us which service you need.">
-    <link rel="stylesheet" href="myStyle.css">
+    <link rel="stylesheet" href="myStyle.css<?= time(); ?>">
     <title>Contact Mr.Rims | Appointments</title>
 </head>
 
