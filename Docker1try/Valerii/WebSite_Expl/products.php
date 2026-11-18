@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="myStyle.css<?= time(); ?>">
+    <link rel="stylesheet" href="myStyle.css?<?= time(); ?>">
     <title>Our Product</title>
 </head>
 
 <body>
     <?php include_once 'commonCode.php';
-    navigatorBar("Products", "EN");
+    navigatorBar("Products", $lang);
     $namesOfProducts = ["BMW Rims", "R³ Wheels", "OZ Racing Ultraleggera HLT", "BBS SR", "Vossen HF-5 Hybrid Forged (5 lug)", "Vossen VPS-4"];
     $imagesOfProducts = ["images/jantes1.png", "images/jantes2.png", "images/jantes3.png", "images/jantes4.png", "images/jantes5.png", "images/jantes6.png"];
     $pricesOfProducts = [963.56, 875.99, 768.99, 650.50, 600.00, 690.00]

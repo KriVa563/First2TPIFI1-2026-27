@@ -24,7 +24,7 @@
                 <h2><?= $namesOfProducts[$i] ?></h2>
                 <img src=<?= $imagesOfProducts[$i] ?>>
                 <p>Prix: <strong><?= $pricesOfProducts[$i] ?> $</strong></p>
-                <button>Add to Cart</button>
+                <button><?= $translations["Product27"] ?></button>
             </div>
         <?php
         }

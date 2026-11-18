@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Shop rims, arrange rim repairs, and get new tires at Mr.Rims.">
-    <link rel="stylesheet" href="myStyle.css<?= time(); ?>">
-    <title><?= $translations["About9"] ?></title>
+    <link rel="stylesheet" href="myStyle.css?<?= time(); ?>">
+    <title>About Mr.Rims</title>
 </head>
 
 <body>
     <?php include_once 'commonCode.php';
-    navigatorBar("About","EN");
+    navigatorBar("About", $lang);
     ?>
     <main class="aboutPage">
         <header class="aboutIntro">
