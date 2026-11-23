@@ -21,7 +21,7 @@
         </header>
 
         <section class="appointmentPanel" aria-labelledby="appointmentTitle">
-            <h2 id="appointmentTitle"><?= $translations["Contact21"] ?></h2>
+            <h2 id="appointmentTitle"><?= $translations["Contact24"] ?></h2>
             <div class="appointmentFields">
                 <label for="serviceChoice"><?= $translations["Contact26"] ?></label>
                 <select id="serviceChoice" name="service">

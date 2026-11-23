@@ -19,7 +19,7 @@
                 <p class="eyebrow"><?= $translations["L19"] ?></p>
                 <h1><?= $translations["L20_1"] ?><span><?= $translations["L20_2"] ?></span></h1>
                 <p class="welcomeIntro"><?= $translations["L21"] ?></p>
-                <a class="welcomeButton" href="products.php"><?= $translations["L22"] ?></a>
+                <a class="welcomeButton" href="products.php?lang=<?= $lang ?>"><?= $translations["L22"] ?></a>
             </div>
             <div class="welcomeImageWrap">
                 <img src="images/jantes3.png" alt="Sporty alloy rim available at Mr.Rims">

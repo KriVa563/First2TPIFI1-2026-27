@@ -11,7 +11,7 @@
 
 <body>
     <?php include_once 'commonCode.php';
-    navigatorBar("About", $lang);
+    navigatorBar("About",$lang);
     ?>
     <main class="aboutPage">
         <header class="aboutIntro">
@@ -28,7 +28,7 @@
                 <h2><?= $translations["About28"] ?></h2>
                 <p><?= $translations["About29"] ?></p>
                 <p><?= $translations["About30"] ?></p>
-                <a class="welcomeButton" href="products.php"><?= $translations["About31"] ?></a>
+                <a class="welcomeButton" href="products.php?lang=<?= $lang ?>"><?= $translations["About31"] ?></a>
             </div>
         </section>
 
@@ -36,17 +36,17 @@
             <article>
                 <h3><?= $translations["About37"] ?></h3>
                 <p><?= $translations["About38"] ?></p>
-                <a class="serviceAppointment" href="contact.php?service=rims#appointment"><?= $translations["About39"] ?></a>
+                <a class="serviceAppointment" href="contact.php?service=rims&lang=<?= $lang ?>#appointment"><?= $translations["About39"] ?></a>
             </article>
             <article>
                 <h3><?= $translations["About42"] ?></h3>
                 <p><?= $translations["About43"] ?></p>
-                <a class="serviceAppointment" href="contact.php?service=repair#appointment"><?= $translations["About44"] ?></a>
+                <a class="serviceAppointment" href="contact.php?service=repair&lang=<?= $lang ?>#appointment"><?= $translations["About44"] ?></a>
             </article>
             <article>
                 <h3><?= $translations["About47"] ?></h3>
                 <p><?= $translations["About48"] ?></p>
-                <a class="serviceAppointment" href="contact.php?service=tires#appointment"><?= $translations["About49"] ?></a>
+                <a class="serviceAppointment" href="contact.php?service=tires&lang=<?= $lang ?>#appointment"><?= $translations["About49"] ?></a>
             </article>
         </section>
     </main>
