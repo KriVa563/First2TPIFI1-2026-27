@@ -48,6 +48,9 @@ function navigatorBar($activePage) //the $activePage will be a string...
                 <li><a href="registration.php?lang=<?= $lang ?>" <?php if ($activePage == "Registration") {
                                                     print "class='active'";
                                             } ?>><?= $translations["RegisterBtn"] ?></a></li>
+                <li><a href="login.php?lang=<?= $lang ?>" <?php if ($activePage == "Login") {
+                                                    print "class='active'";
+                                            } ?>><?= $translations["LoginBtn"] ?></a></li>
             </ul>
             <ul id="languageLinks">
                 <li><a href="index.php" <?php if ($lang == "EN") {
